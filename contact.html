@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact AMG Courrier Service for quotes, support, or partnership inquiries. 24/7 phone support and fast response times.">
+  <title>Contact & Quote | AMG Courrier Service</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-top">
+      <div class="container">
+        <div class="header-top-left">
+          <span><i class="fas fa-phone-alt"></i> +1 (800) 264-2674</span>
+          <span><i class="fas fa-envelope"></i> support@amgcourrier.com</span>
+        </div>
+        <div class="header-top-right">
+          <a href="tracking.html"><i class="fas fa-search-location"></i> Track Shipment</a>
+          <a href="#"><i class="fas fa-user"></i> Client Login</a>
+        </div>
+      </div>
+    </div>
+    <div class="header-main">
+      <div class="container">
+        <a href="index.html" class="logo">
+          <div class="logo-icon">AMG</div>
+          <div>AMG <span>Courrier</span></div>
+        </a>
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="tracking.html">Tracking</a>
+          <a href="about.html">About Us</a>
+          <a href="contact.html" class="active">Contact</a>
+          <a href="contact.html#quote" class="btn-quote">Get a Quote</a>
+        </nav>
+        <button class="mobile-toggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>Quotes, support, or partnership — our team responds fast.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info-card">
+          <h3>Get in Touch</h3>
+          <p style="opacity:0.9;margin-bottom:28px">Our operations and customer success teams are available around the clock for urgent shipments.</p>
+          
+          <div class="contact-info-item">
+            <div class="icon"><i class="fas fa-phone-alt"></i></div>
+            <div>
+              <strong>Phone</strong><br>
+              +1 (800) 264-2674<br>
+              <span style="font-size:0.85rem;opacity:0.8">Toll-free · 24/7</span>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <strong>Email</strong><br>
+              support@amgcourrier.com<br>
+              quotes@amgcourrier.com
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <strong>Headquarters</strong><br>
+              1250 Logistics Blvd, Suite 400<br>
+              Chicago, IL 60601, USA
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <strong>Business Hours</strong><br>
+              Operations: 24/7<br>
+              Sales & Quotes: Mon–Fri 7am–8pm CT
+            </div>
+          </div>
+
+          <div style="margin-top:30px;padding-top:24px;border-top:1px solid rgba(255,255,255,0.15)">
+            <p style="font-size:0.9rem;opacity:0.85">Average quote response time:</p>
+            <p style="font-size:1.4rem;font-weight:700;color:var(--accent)">Under 30 minutes</p>
+          </div>
+        </div>
+
+        <div>
+          <!-- Quote Form -->
+          <div class="contact-form-card" id="quote">
+            <h3 style="color:var(--primary);margin-bottom:6px;font-size:1.4rem">Request a Quote</h3>
+            <p style="color:var(--text-light);margin-bottom:24px;font-size:0.95rem">Fill in the details below. We’ll respond with pricing and options quickly.</p>
+            <form id="quote-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Full Name *</label>
+                  <input type="text" required placeholder="Jane Smith">
+                </div>
+                <div class="form-group">
+                  <label>Company</label>
+                  <input type="text" placeholder="Acme Corp">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Email *</label>
+                  <input type="email" required placeholder="jane@company.com">
+                </div>
+                <div class="form-group">
+                  <label>Phone *</label>
+                  <input type="tel" required placeholder="+1 (555) 000-0000">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Origin City / ZIP *</label>
+                  <input type="text" required placeholder="Chicago, IL 60601">
+                </div>
+                <div class="form-group">
+                  <label>Destination City / ZIP *</label>
+                  <input type="text" required placeholder="Austin, TX 78701">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Service Type *</label>
+                  <select required>
+                    <option value="">Select service</option>
+                    <option>Same-Day Express</option>
+                    <option>Next-Day</option>
+                    <option>Ground / LTL</option>
+                    <option>Full Truckload</option>
+                    <option>International Air</option>
+                    <option>International Ocean</option>
+                    <option>E-commerce Fulfillment</option>
+                    <option>Cold Chain</option>
+                    <option>High-Value / Secure</option>
+                    <option>Other / Custom</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>Approx. Weight / Pieces</label>
+                  <input type="text" placeholder="e.g. 25 lbs · 2 boxes">
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Additional Details</label>
+                <textarea rows="4" placeholder="Dimensions, special handling, preferred pickup time, etc."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width:100%;padding:16px">
+                <i class="fas fa-paper-plane"></i> Submit Quote Request
+              </button>
+            </form>
+          </div>
+
+          <!-- General Contact -->
+          <div class="contact-form-card" style="margin-top:28px">
+            <h3 style="color:var(--primary);margin-bottom:6px;font-size:1.3rem">General Inquiry</h3>
+            <p style="color:var(--text-light);margin-bottom:20px;font-size:0.95rem">Partnerships, careers, media, or other questions.</p>
+            <form id="contact-form">
+              <div class="form-group">
+                <label>Name *</label>
+                <input type="text" required>
+              </div>
+              <div class="form-group">
+                <label>Email *</label>
+                <input type="email" required>
+              </div>
+              <div class="form-group">
+                <label>Subject</label>
+                <input type="text">
+              </div>
+              <div class="form-group">
+                <label>Message *</label>
+                <textarea rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-outline" style="width:100%;padding:14px">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map placeholder -->
+  <section style="background:var(--bg-alt);padding:0">
+    <div style="height:320px;background:url('https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=1600&q=80') center/cover;position:relative">
+      <div style="position:absolute;inset:0;background:rgba(10,37,64,0.55);display:flex;align-items:center;justify-content:center">
+        <div style="background:white;padding:24px 36px;border-radius:var(--radius);text-align:center;box-shadow:var(--shadow-lg)">
+          <h3 style="color:var(--primary);margin-bottom:6px">Visit Our HQ</h3>
+          <p style="color:var(--text-light);margin-bottom:12px">1250 Logistics Blvd, Suite 400 · Chicago, IL 60601</p>
+          <a href="https://maps.google.com" target="_blank" class="btn btn-primary" style="padding:10px 20px;font-size:0.9rem">
+            <i class="fas fa-map-marked-alt"></i> Open in Maps
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <div class="logo-icon">AMG</div>
+            <div>AMG <span style="color:var(--accent)">Courrier</span></div>
+          </a>
+          <p>Professional courier and logistics solutions trusted by businesses across North America and beyond.</p>
+          <div class="socials">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Same-Day Express</a></li>
+            <li><a href="services.html">International Shipping</a></li>
+            <li><a href="services.html">Freight & Ground</a></li>
+            <li><a href="services.html">E-commerce Fulfillment</a></li>
+            <li><a href="services.html">Cold Chain</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="about.html#careers">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="footer-contact">
+            <li><i class="fas fa-map-marker-alt"></i> 1250 Logistics Blvd, Suite 400<br>Chicago, IL 60601</li>
+            <li><i class="fas fa-phone"></i> +1 (800) 264-2674</li>
+            <li><i class="fas fa-envelope"></i> support@amgcourrier.com</li>
+            <li><i class="fas fa-clock"></i> 24/7 Operations Support</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 AMG Courrier Service. All rights reserved.</span>
+        <span>Licensed & Insured | USDOT #3482917</span>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
